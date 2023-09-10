@@ -1,0 +1,15 @@
+<div class="space-y-4">
+  <div class="sm:flex justify-between">
+    <h1 class="font-bold text-4xl">Pixels#index</h1>
+    <div class="flex grow justify-end space-x-2">
+      <%= button_to 'Reset', pixels_reset_path, class:'btn-primary', method: :post %>
+      <%= button_to 'Colorize Action', pixels_colorize_path, class:'btn-primary', method: :post %>
+      <%= button_to 'Colorize Job', pixels_colorize_job_path, class:'btn-primary', id:'btn-job', method: :post %>
+    </div>
+  </div>
+  <div class="flex flex-wrap">
+    <% 6.times do %>
+      <%= render @pixels.shuffle %>
+    <%end%>
+  </div>
+</div>

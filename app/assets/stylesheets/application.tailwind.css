@@ -2,12 +2,76 @@
 @tailwind components;
 @tailwind utilities;
 
-/*
+
 
 @layer components {
+
   .btn-primary {
-    @apply py-2 px-4 bg-blue-200;
+    @apply py-2 px-4 bg-gray-200 hover:text-white hover:bg-blue-600 rounded-lg;
+  }
+  
+  .pixel {
+    @apply w-5 h-5 ;
+  }
+
+  .default {
+    @apply bg-gray-200;
+  }
+
+  .red {
+    @apply bg-red-500;
+  }
+  .orange {
+    @apply bg-orange-500;
+  }
+  .amber {
+    @apply bg-amber-500;
+  }
+  .yellow {
+    @apply bg-yellow-500;
+  }
+  .lime {
+    @apply bg-lime-500;
+  }
+  .green {
+    @apply bg-green-500;
+  }
+  .emerald {
+    @apply bg-emerald-500;
+  }
+  .teal {
+    @apply bg-teal-500;
+  }
+  .cyan {
+    @apply bg-cyan-500;
+  }
+  .sky {
+    @apply bg-sky-500;
+  }
+  .blue {
+    @apply bg-blue-500;
+  }
+  .indigo {
+    @apply bg-indigo-500;
+  }
+  .violet {
+    @apply bg-violet-500;
+  }
+  .purple {
+    @apply bg-purple-500;
+  }
+  .fuchsia {
+    @apply bg-fuchsia-500;
+  }
+  .pink {
+    @apply bg-pink-500;
+  }
+  .rose {
+    @apply bg-rose-500;
   }
 }
 
-*/
+.turbo-progress-bar {
+  height: 20px;
+}
+
