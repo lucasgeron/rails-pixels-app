@@ -8,9 +8,9 @@
     </div>
   </div>
   <div class="flex flex-wrap">
-  <% 6.times do  %>
-      <%= render @pixels.shuffle %>
-  <% end %>
+    <% 6.times do %>
+      <%= render @pixels.shuffle %> <%# .shuffle is optional %>
+    <% end %>
   </div>
 </div>
 

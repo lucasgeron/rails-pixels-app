@@ -8,6 +8,7 @@ module.exports = {
     './app/views/**/*.{erb,haml,html,slim}'
   ],
   safelist: [
+    'btn-job-disabled',
     'default',
     'red',
     'orange',

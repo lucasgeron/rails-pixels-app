@@ -1,1 +1,3 @@
-<%= button_to defined?(btn_text) ? btn_text : 'Colorize Job', pixels_colorize_job_path, class: defined?(btn_class) ? btn_class : 'btn-primary', id:'btn-job', method: :post %>
+<div id="btn-job">
+  <%= button_to defined?(btn_text) ? btn_text : 'Colorize Job', pixels_colorize_job_path, class: defined?(btn_class) ? btn_class : 'btn-primary',  method: :post %>
+</div>
