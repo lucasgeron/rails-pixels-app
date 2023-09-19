@@ -2,9 +2,9 @@
 
 ![rails Pixels Demo App](https://i.ibb.co/WWj82Tx/20230910-183055.gif)
 
-Rails Pixels App is a creative way to demonstrate the use of ActiveJobs and ActionCable in a Rails application.
+Rails Pixels App is a creative way to demonstrate the use of ActiveJobs and TurboStream in a Rails application.
 
-To demonstrate these functionalities, we render pixels on the screen in real time, processing the data in the background and sending the result to the client via ActionCable.
+To demonstrate these functionalities, we render pixels on the screen in real time, processing the data in the background and sending the result to the client via Turbo.
 
 ## Installation
   - Clone this repository
