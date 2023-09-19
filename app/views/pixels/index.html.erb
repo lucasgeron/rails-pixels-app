@@ -4,12 +4,14 @@
     <div class="flex grow justify-end space-x-2">
       <%= button_to 'Reset', pixels_reset_path, class:'btn-primary', method: :post %>
       <%= button_to 'Colorize Action', pixels_colorize_path, class:'btn-primary', method: :post %>
-      <%= button_to 'Colorize Job', pixels_colorize_job_path, class:'btn-primary', id:'btn-job', method: :post %>
+      <%= render partial:'btn_job'%>
     </div>
   </div>
   <div class="flex flex-wrap">
-    <% 6.times do %>
+  <% 6.times do  %>
       <%= render @pixels.shuffle %>
-    <%end%>
+  <% end %>
   </div>
 </div>
+
+<%= turbo_stream_from 'pixels' %>
