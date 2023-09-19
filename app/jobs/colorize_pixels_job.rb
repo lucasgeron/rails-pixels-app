@@ -6,6 +6,7 @@ class ColorizePixelsJob < ApplicationJob
     pixels = pixels.shuffle
     total = pixels.count
     
+    
     pixels.each_with_index do |pixel, index|
       pixel.update(color: Pixel::COLORS.sample)
       # update one pixel at a time
