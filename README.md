@@ -21,4 +21,4 @@ Feel free to customize this application.
 
 Check the tutorial step by step in 
 - [LinkedIn]()
-- [lucasgeron.github.io]()
+- [lucasgeron.github.io](https://lucasgeron.github.io/2023/09/10/rails-pixels-app.html)
